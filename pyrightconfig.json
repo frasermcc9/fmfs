@@ -1,0 +1,27 @@
+{
+    "author":"Fraser McCallum",
+    "include": [
+      "./*"
+    ],
+    
+    "exclude": [
+      "**/node_modules",
+      "**/__pycache__",
+      "src/experimental",
+      "src/typestubs"
+    ],
+
+    "venv": "env367",
+  
+    "strict": ["./*"],
+    "reportMissingImports": true,
+  
+    "pythonVersion": "3.7",
+    "pythonPlatform": "Linux",
+  
+    "executionEnvironments": [
+      {
+        "root": "./*"
+      }
+    ]
+  }
